@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+  float vol,rai,alt;
+  
+  const float pi=3.14;
+  
+  printf("informe o raio:");
+  scanf("%f", &rai);
+  printf("informe o altura:");
+  scanf("%f", &alt);
+  
+  vol=pi*rai*alt;
+  
+  printf("a capacidade da lata e de: %.2f",vol);
+  
+    return 0;
+}
