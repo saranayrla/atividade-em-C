@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    float som,sub,mul,divi,res;
+    
+    printf("informe a:");
+    scanf("%d",&a);
+    printf("informe b:");
+    scanf("%d",&b);
+    
+    som=a+b;
+    sub=a-b;
+    mul=a*b;
+    divi=a/b;
+    res=a%b;
+    
+    printf("resuldado da adicao %f\n",som);
+    printf("resuldado da subtracao %f\n",sub);
+    printf("resuldado da multiplicacao %f\n",mul);
+    printf("resuldado da divisao %f\n",divi);
+    printf("resuldado da resto %f\n",res);
+
+    return 0;
+}
