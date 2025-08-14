@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+    int escolha;
+    int n1,n2,r;
+    
+    printf("---------------------------\n");
+    printf(" escolha um dos operadores\n");
+    printf("---------------------------\n");
+    printf("1-adicao (+)\n");
+    printf("2-subtracao (-)\n");
+    printf("3-multiplicacao (*)\n");
+    printf("4-divisao (/)\n");
+    scanf("%d",&escolha);
+    
+    printf("informe numero da operacao: ");
+    scanf("%d",&n1);
+    printf("informe segundo numero da operacao: ");
+    scanf("%d",&n2);
+    
+    switch(escolha){
+        case 1:
+        r=n1+n2;
+        printf("resultado: %.2d",r);
+        break;
+        case 2:
+        r=n1-n2;
+        printf("resultado: %.2d",r);
+        break;
+        case 3:
+        r=n1*n2;
+        printf("resultado: %.2d",r);
+        break;
+        case 4:
+        r=n1/n2;
+        printf("resultado: %.2d",r);
+        break;
+        
+    }
+
+    return 0;
+}
